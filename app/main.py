@@ -19,7 +19,7 @@ app.include_router(login_router)
 @app.get("/")
 def root():
     # version 字串之後做 blue-green / canary、確認新版上線時會用到
-    return {"service": "hello-world", "version": VERSION}
+    return {"service": "hello-noway", "version": VERSION}
 
 
 @app.get("/health")
